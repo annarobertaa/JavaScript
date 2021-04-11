@@ -11,22 +11,13 @@ body{
 	margin-left: 10%;
 }
 
-	h1{
-	color: #008080;
-	font-family: serif, arial;
-	font-size: 65px;
-	text-align: center;
-	border-style: outset;
-	margin-right: 10%;
-	margin-left: 10%;
-}
 
 	h2{
-	color: #20B2AA;
+	color: #008080;
 	font-family: times new roman;
 	font-size: 50px;
 	text-align: center;
-	margin-right: 40%;
+	margin-right: 20%;
 	margin-left: 10%;
 }
 
@@ -39,7 +30,7 @@ body{
 		font-family: cursive, arial;
 		font-size: 25px;
 		border-color: #20B2AA;
-	}
+}
 
 	h4{
 	font-size: 24px;
@@ -47,4 +38,48 @@ body{
 	border-style: hidden;
 	margin-right: 10%;
 	margin-left: 10%;
+}
+
+	header{
+	background-color: #B0E0E6;
+	height: 90px;
+	padding-bottom: 0%;
+	position: relative;
+}
+
+.menu{
+	list-style:none;
+	border:1px hidden;
+	float:left;
+
+}
+
+	.menu li, a{
+	float: left;
+	padding-left: 60px;
+	font-family: times new roman;
+	font-size: 25px;
+	padding-top: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+
+	.menu li a:hover{
+	color: black;
+	text-decoration: underline;
+
+}
+
+	footer{
+	background-color: #2F4F4F;
+	height: 230px;
+	position: relative;
+	}
+
+	address{
+	color: white;
+	font-size: 20px;
+	font-family: arial;
+	margin-left: 5%; 
 	}
