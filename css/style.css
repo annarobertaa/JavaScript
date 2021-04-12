@@ -38,7 +38,7 @@ h4{
 		margin-right: auto;
 		margin-left: auto;
 		text-align: center;
-		font-family: cursive, arial;
+		font-family: arial;
 		font-size: 25px;
 		border-color: #20B2AA;
 }
@@ -60,7 +60,7 @@ h4{
 
 	.menu li, a{
 	float: left;
-	padding-left: 15px;
+	padding-left: 22px;
 	font-family: times new roman;
 	font-size: 25px;
 	color: black;
