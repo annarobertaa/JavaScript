@@ -27,9 +27,6 @@ h4{
 	text-align: center;
 	margin-right: 20%;
 	margin-left: 10%;
-	padding-bottom: 40px;
-	font-weight: bold;
-	padding-top: 40px;
 }
 
 	table, th, tr, td{
@@ -38,7 +35,7 @@ h4{
 		margin-right: auto;
 		margin-left: auto;
 		text-align: center;
-		font-family: cursive, arial;
+		font-family: arial;
 		font-size: 25px;
 		border-color: #20B2AA;
 }
@@ -47,9 +44,9 @@ h4{
 	header{
 	background-color: #B0E0E6;
 	height: 90px;
-	width: 818px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	width: 818;
 }
 
 	.menu{
@@ -61,7 +58,7 @@ h4{
 
 	.menu li, a{
 	float: left;
-	padding-left: 24px;
+	padding-left: 29px;
 	font-family: times new roman;
 	font-size: 25px;
 	color: black;
@@ -75,9 +72,9 @@ h4{
 
 }
 
-	footer{
+footer{
 	background-color: #2F4F4F;
-	height: 200px;
+	height: 230px;
 	position: relative;
 }
 
@@ -86,13 +83,8 @@ h4{
 	font-size: 20px;
 	font-family: arial;
 	margin-left: 5%; 
-}
 
+}
 	ul{
 	padding-top: 20px;
-}
-
-	figure{
-	margin-right: 2%;
-
 }
