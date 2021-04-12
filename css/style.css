@@ -7,8 +7,9 @@ body{
 	font-size: 24px;
 	font-family: arial;
 	border-style: hidden;
-	margin-right: 20%;
-	margin-left: 10%;
+	margin-right: 25%;
+	margin-left: 5%;
+	padding-bottom: 25px;
 }
 
 h4{
@@ -26,6 +27,9 @@ h4{
 	text-align: center;
 	margin-right: 20%;
 	margin-left: 10%;
+	padding-bottom: 40px;
+	font-weight: bold;
+	padding-top: 40px;
 }
 
 	table, th, tr, td{
@@ -43,6 +47,9 @@ h4{
 	header{
 	background-color: #B0E0E6;
 	height: 90px;
+	width: 818px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 	.menu{
@@ -54,7 +61,7 @@ h4{
 
 	.menu li, a{
 	float: left;
-	padding-left: 29px;
+	padding-left: 24px;
 	font-family: times new roman;
 	font-size: 25px;
 	color: black;
@@ -70,17 +77,22 @@ h4{
 
 	footer{
 	background-color: #2F4F4F;
-	height: 230px;
+	height: 200px;
 	position: relative;
-	}
+}
 
 	address{
 	color: white;
 	font-size: 20px;
 	font-family: arial;
 	margin-left: 5%; 
-	}
+}
 
 	ul{
 	padding-top: 20px;
-	}
+}
+
+	figure{
+	margin-right: 2%;
+
+}
