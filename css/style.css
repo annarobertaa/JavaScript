@@ -1,9 +1,9 @@
 body{
 	background-color: #F0F8FF;
-	padding-top: 75px;
+	padding-top: 65px;
 }
-	
 
+	
 	p{
 	font-size: 24px;
 	font-family: arial;
@@ -13,7 +13,7 @@ body{
 	padding-bottom: 25px;
 }
 
-h4{
+	h4{
 	font-size: 24px;
 	font-family: arial;
 	border-style: hidden;
@@ -45,37 +45,13 @@ h4{
 }
 
 	header{
-	background-color: #B0E0E6;
+	background-color: rgb(176,224,230, 0.5);
 	height: 90px;
 	width: 100%;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-	.menu{
-	list-style: none;
-	border: 1px hidden;
-	float: left;
-
-}
-
-	.menu li, a{
-	float: left;
-	padding-left: 22px;
-	font-family: arial;
-	font-weight: bold;
-	font-size: 25px;
-	color: black;
-	text-decoration: none;
-}
-
-
-	.menu li a:hover{
-	color: #0000FF;
-	text-decoration: underline;
-	display: inline;
-
-}
 
 	footer{
 	background-color: #2F4F4F;
@@ -90,13 +66,73 @@ h4{
 	margin-left: 5%; 
 }
 
-	ul{
-	padding-top: 25px;
-	margin-left: 3%;
-}
 
 	figure{
 	margin-right: 2%;
-	margin-left: 70%;
+	margin-left: 98%;
 
+}
+
+
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+
+}
+
+ul{
+	list-style: none;
+}
+
+input[type="checkbox"]{
+	display: none;
+}
+
+nav{
+
+	background-color: rgb(47,79,79, 0.7);
+	width: 300px;
+	height: 350px;
+	position: absolute;
+	left: -350px;
+	transition: all .5s;
+}
+
+a{
+	display: block;
+	padding: 20px 5px;
+	color: white;
+}
+
+a:hover{
+
+	background-color: rgb(102,205,170);
+	color: black;
+}
+
+label{
+
+	padding: 15px;
+	padding-left: 10px;
+	position: absolute;
+	z-index: 1;
+}
+
+ul{
+	position: absolute;
+	top: 70px;
+	width: 100%;
+}
+
+input[type="checkbox"]:checked ~ nav{
+
+	transform: translateX(350px);
 }
